@@ -1,0 +1,138 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 20px;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 132, 0, 0.808),
+    rgba(190, 175, 5, 0.749)
+  );
+}
+
+.with-form {
+  margin-top: 5%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: center;
+}
+
+.app {
+  margin-top: 5%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-form {
+  padding: 5%;
+  align-items: center;
+  text-align: center;
+
+  height: 180px;
+  width: 250px;
+  background-color: rgba(240, 248, 255, 0.185);
+  border-radius: 10px;
+}
+
+.card-form input {
+  margin: 5%;
+  height: 35px;
+  width: 180px;
+  border-radius: 45px;
+  text-align: center;
+}
+
+button {
+  margin: 5%;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: rgba(253, 10, 10, 0.269);
+  color: beige;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: chocolate;
+}
+
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  color: bisque;
+}
+
+.flashcard {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 3px;
+  color: rgba(29, 22, 30, 0.678);
+  cursor: pointer;
+  margin: 4%;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.269);
+}
+
+.selected {
+  padding: 3px;
+  cursor: pointer;
+  margin: 4%;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(253, 10, 10, 0.269);
+  color: aliceblue;
+}
+
+.changes {
+  margin-right: 2%;
+  height: 150px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+select {
+  cursor: pointer;
+  width: 150px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  background-color: rgba(253, 10, 10, 0.269);
+  color: aliceblue;
+}
+
+option {
+  cursor: pointer;
+  background-color: cadetblue;
+  border-radius: 15px;
+}
