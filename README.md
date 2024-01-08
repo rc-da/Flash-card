@@ -19,3 +19,8 @@ Contributions are welcome! Follow these steps to contribute:
 4. Push to the branch: `git push origin feature-name`
 5. Open a pull request.
 
+## Tech Stack
+
+- **React**: JavaScript library for building user interfaces.
+- **JavaScript**: Programming language used for the application logic.
+- **CSS**: Styling language to design the user interface.
